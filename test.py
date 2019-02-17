@@ -12,8 +12,8 @@ print(data.shape)
 data.head()
 
 # Getting the values and plotting it
-f1 = data['Age'].values
-f2 = data['Credit amount'].values
+f1 = data['Time'].values
+f2 = data['Global_active_power'].values
 X = np.array(list(zip(f1, f2)))
 plt.scatter(f1, f2, c='black', s=7)
 
