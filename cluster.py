@@ -10,8 +10,8 @@ def kmeans(dataset, xlabel, ylabel, k):
     if not os.path.exists(dataset_name):
         os.makedirs(dataset_name)
 
-    print("K-means clustering")
-    print("Dataset: ".format(dataset_name))
+    print("---K-means clustering---")
+    print("Dataset: {}".format(dataset_name))
     print("X: {}".format(xlabel))
     print("Y: {}".format(ylabel))
     print("k: {}".format(k))
@@ -22,7 +22,7 @@ def kmeans(dataset, xlabel, ylabel, k):
 
     # Importing the dataset
     data = pd.read_csv(dataset)
-    print("Input Data and Shape:")
+    print("Input data and shape:")
     print(data.shape)
     data.head()
 
