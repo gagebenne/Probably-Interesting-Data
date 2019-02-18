@@ -33,7 +33,7 @@ def kmeans(dataset, xlabel, ylabel, k):
     plt.scatter(f1, f2, c='black', s=5)
 
     # X and Y coordinates of random starter centroids
-    C_x = np.random.randint(np.min([i[1] for i in X]), np.max([i[0] for i in X]), size=k)
+    C_x = np.random.randint(np.min([i[0] for i in X]), np.max([i[0] for i in X]), size=k)
     C_y = np.random.randint(np.min([i[1] for i in X]), np.max([i[1] for i in X]), size=k)
     C = np.array(list(zip(C_x, C_y)), dtype=np.float32)
     print("Initial Centroids:")
