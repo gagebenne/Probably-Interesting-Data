@@ -70,7 +70,7 @@ def kmeans(dataset, xlabel, ylabel, k):
             C[i] = np.mean(points, axis=0)
         error = dist(C, C_old, None)
 
-    colors = ['r', 'g', 'b', 'y', 'c', 'm']
+    colors = ['r', 'g', 'b', 'y', 'c', 'm', 'k']
     fig, ax = plt.subplots()
     for i in range(k):
             points = np.array([X[j] for j in range(len(X)) if clusters[j] == i])
