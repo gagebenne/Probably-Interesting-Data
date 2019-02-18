@@ -10,6 +10,12 @@ def kmeans(dataset, xlabel, ylabel, k):
     if not os.path.exists(dataset_name):
         os.makedirs(dataset_name)
 
+    print("K-means clustering")
+    print("Dataset: ".format(dataset_name))
+    print("X: {}".format(xlabel))
+    print("Y: {}".format(ylabel))
+    print("k: {}".format(k))
+
     # Get plotting up and going
     plt.rcParams['figure.figsize'] = (16, 9)
     plt.style.use('ggplot')
