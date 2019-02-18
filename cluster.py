@@ -47,6 +47,7 @@ def kmeans(dataset, xlabel, ylabel, k):
     plt.xlabel(xlabel)
     plt.ylabel(ylabel)
     plt.savefig("{}/{}_{}_initial.png".format(dataset_name, xlabel, ylabel))
+    plt.close()
 
     # To store the value of centroids when it updates
     C_old = np.zeros(C.shape)
@@ -81,6 +82,7 @@ def kmeans(dataset, xlabel, ylabel, k):
     plt.xlabel(xlabel)
     plt.ylabel(ylabel)
     plt.savefig("{}/{}_{}_clustering.png".format(dataset_name, xlabel, ylabel))
+    plt.close()
 
 # Euclidean distance calculator
 def dist(a, b, ax=1):
