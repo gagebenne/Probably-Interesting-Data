@@ -15,6 +15,10 @@ By attempting to apply k-means to a nicely-clustered dataset, and a skew-cluster
 ## Dataset 1: Iris
 Sepal Width vs. Sepal Length
 
+![Initial](iris/SepalLengthCm_PetalLengthCm_initial.png)
+![Initial](iris/SepalLengthCm_PetalLengthCm_clustering.png)
+
+
 
 
 ## Dataset 2:
