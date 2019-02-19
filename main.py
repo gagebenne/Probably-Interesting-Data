@@ -8,6 +8,6 @@ kmeans(dataset, xs, ys, k)
 
 dataset = "datasets/adult.csv"
 xs = "age"
-ys = "capital.gain"
+ys = "capitalgain"
 k = 2
 kmeans(dataset, xs, ys, k)
