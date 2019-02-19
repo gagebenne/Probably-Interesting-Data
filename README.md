@@ -15,7 +15,7 @@ By attempting to apply k-means to a nicely-clustered dataset, and a skew-cluster
 ## Process
 We opted to implement our k-means clustering strategy in Python so that we may utilize its many plotting and scientific computing packages, along with pandas.  We love pandas.  In getting started, we followed key points on a guide from [Mubaris NK](https://mubaris.com/posts/kmeans-clustering/).
 
-The `kmeans` function takes a dataset, two columns to consider in the calculations, as well as the k-value.  Initially the basic dataset is plotted and saved as a comparison to the later clustered data.
+The [kmeans](cluster.py) function takes a dataset, two columns to consider in the calculations, as well as the k-value.  Initially the basic dataset is plotted and saved as a comparison to the later clustered data.
 
 Next, k number of initial centroids are found as a random X and Y value within the domain and range respectively.
 
@@ -50,8 +50,6 @@ After all is said and done, the clusters are represented visually by assigning c
 ## Dataset 1: Iris
 ### Basic Idea
 This is a very common example dataset for exemplifying k-means clustering, and we thought we would start off by making sure we could properly replicate the results of others. We compared sepal width versus sepal length for three species of iris plants, which, as it turns out, have two distinct width/ratios that are observable both to the human eye, and also to the k-means algorithm. The cluster to the left is the anomoly species, at least as opposed to the other two species which lie in the other cluster.
-
-Sepal Width vs. Sepal Length
 
 ![Initial](iris/SepalLengthCm_PetalLengthCm_initial.png)
 
