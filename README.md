@@ -13,6 +13,9 @@ The second dataset we used was census data plotting age versus capital gains. We
 By attempting to apply k-means to a nicely-clustered dataset, and a skew-clustered dataset, we have developed a profile of the k-means clustering strategy. The following sections provide the details and visuals for each dataset.
 
 ## Dataset 1: Iris
+### Basic Idea
+This is a very common example dataset for exemplifying k-means clustering, and we thought we would start off by making sure we could properly replicate the results of others. We compared sepal width versus sepal length for three species of iris plants, which, as it turns out, have two distinct width/ratios that are observable both to the human eye, and also to the k-means algorithm. The cluster to the left is the anomoly species, at least as opposed to the other two species which lie in the other cluster. 
+
 Sepal Width vs. Sepal Length
 
 ![Initial](iris/SepalLengthCm_PetalLengthCm_initial.png)
@@ -22,5 +25,7 @@ Sepal Width vs. Sepal Length
 
 
 ## Dataset 2:
+### Basic Idea
+We thought it would be interesting to poke around in census data for our next statistical analysis. I initially had selected age versus capital gains, because I thought maybe there would be notable changes after a certain point in age, but what I ended up finding was a population of people of various ages that recorded substantially greater capital gains than the vast majority of the population. I was interested in trying out k-means to see how well it would capture a set of fewer datapoints that ended in a more one-dimensional cluster. As you can view yourself in the charts below, our k-means algorithm performed just as well the second time, and successfully separted the two clusters shown.
 
 [Reference](https://mubaris.com/posts/kmeans-clustering/)
