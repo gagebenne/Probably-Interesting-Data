@@ -4,13 +4,13 @@
 *EECS738*
 
 ## Introduction
-For our project, we attempted to analyze two different datasets, both by using the k-means clustering strategy in order to flesh out a wholistic understanding of k-means, how it works, what it can do, and what it *can't* do.
+For our project, we attempted to analyze two different datasets, both by using the k-means clustering strategy in order to flesh out a wholistic understanding of k-means, how it works, and what it can demonstrate.
 
-The Iris dataset we used was very easy for applying k-means, as we could find a clean separation of one type of iris from the other two when comparing sepal width versus sepal length.
+The Iris dataset we used was very easy for applying k-means, as we could find a clean separation of one type of iris from the other two when comparing sepal width versus sepal length. This is a very standard dataset for demonstrating clustering of data, and our k-means implementation performed quite admirably in locating proper centroids for the two clusters.
 
-For the second dataset, we realized the shortcomings of the k-means clustering strategy. In particular, k-means just optimizes to get a roughly even amount of datapoints as close to k centers as possible. This is fine for a set of roughly evenly-sized clusters, but some datasets have clusters of very different sizes. With k-means, the algorithm typically shows bias towards the largest cluster for all centroids, instead of placing a centroid in the smaller cluster, which is what we really would desire.
+The second dataset we used was census data plotting age versus capital gains. We were also able to effectively apply k-means here, however instead of demonstrating a particular relationship between age and capital gains, k-means demonstrates a clump of indivduals who reported exceptionally high capital gains. This group likely reached the maximum allowed by the census, which is how their cluster ended up being so close together.
 
-By attempting to apply k-means to a nicely-clustered dataset, and a skew-clustered dataset, we have developed a profile of the k-means clustering strategy, warts and all. The following sections provide the details and visuals for each dataset.
+By attempting to apply k-means to a nicely-clustered dataset, and a skew-clustered dataset, we have developed a profile of the k-means clustering strategy. The following sections provide the details and visuals for each dataset.
 
 ## Dataset 1: Iris
 Sepal Width vs. Sepal Length
