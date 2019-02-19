@@ -4,7 +4,7 @@
 *EECS738*
 
 ## Introduction
-For our project, we attempted to analyze two different datasets, both by using the k-means clustering strategy in order to flesh out a wholistic understanding of k-means, how it works, and what it can demonstrate.
+For our project, we attempted to analyze two different datasets, both by using the k-means clustering strategy in order to flesh out a wholistic understanding of k-means, how it works, and what it can demonstrate. We targeted relatively continuous datasets as much as possible, as clustering is typically more interesting on continuous-axis datapoints instead of highly-discrete datapoints represented in some of the datasets we examined.
 
 The Iris dataset we used was very easy for applying k-means, as we could find a clean separation of one type of iris from the other two when comparing sepal width versus sepal length. This is a very standard dataset for demonstrating clustering of data, and our k-means implementation performed quite admirably in locating proper centroids for the two clusters.
 
