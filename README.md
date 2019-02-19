@@ -22,10 +22,12 @@ Sepal Width vs. Sepal Length
 ![Initial](iris/SepalLengthCm_PetalLengthCm_clustering.png)
 
 
-
-
 ## Dataset 2:
 ### Basic Idea
 We thought it would be interesting to poke around in census data for our next statistical analysis. I initially had selected age versus capital gains, because I thought maybe there would be notable changes after a certain point in age, but what I ended up finding was a population of people of various ages that recorded substantially greater capital gains than the vast majority of the population. I was interested in trying out k-means to see how well it would capture a set of fewer datapoints that ended in a more one-dimensional cluster. As you can view yourself in the charts below, our k-means algorithm performed just as well the second time, and successfully separted the two clusters shown.
 
+![Initial](adult/age_capitalgain_initial.png)
+![Initial](adult/age_capitalgain_clustering.png)
+=
+# K-Means Reference
 [Reference](https://mubaris.com/posts/kmeans-clustering/)
