@@ -1,7 +1,7 @@
 # Probably Interesting Data
 *Gage Benne & Andy Monroe*
 
-*EECS738*
+*EECS 738*
 
 ## Introduction
 For our project, we attempted to analyze two different datasets, both by using the k-means clustering strategy in order to flesh out a wholistic understanding of k-means, how it works, and what it can demonstrate. We targeted relatively continuous datasets as much as possible, as clustering is typically more interesting on continuous-axis datapoints instead of highly-discrete datapoints represented in some of the datasets we examined.
