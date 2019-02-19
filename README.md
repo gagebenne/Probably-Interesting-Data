@@ -65,7 +65,3 @@ We thought it would be interesting to poke around in census data for our next st
 ![Initial](adult/age_capitalgain_initial.png)
 
 ![Initial](adult/age_capitalgain_clustering.png)
-
-
-# K-Means Reference
-[Reference](https://mubaris.com/posts/kmeans-clustering/)
